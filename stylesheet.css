@@ -1,0 +1,54 @@
+/* This is stylesheet.css an external style sheet */
+/* Style whole page */
+body {
+    background-color: lightblue;
+    color: #2d3b71;
+    margin: 0;
+}
+
+/* Wrapper div controls width of entire layout */
+
+#wrapper {
+    width: 90%;
+    min-width: 580px;
+    max-width: 1400px;
+    background: white;
+    border: solid 1px silver;
+    border-radius: 4px;
+    margin: 10px auto; 
+}
+
+/* Page header at the top of each page */
+header {
+    background-color: #2d3b71;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+}
+
+/* Navigation bar */
+nav {
+    width: 250px;
+    float: right;
+}
+
+/* Navigation bar links (<a> tags) */
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 115%;
+}
+
+/* Main content below the header and navbar */
+main {
+    padding: 8px;
+}
+
+/* Level 1 and Level 2 headings */
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #2d3b71;
+}
